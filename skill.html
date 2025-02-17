@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Full Stack Developer Portfolio</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      text-align: center;
+      padding: 20px;
+      font-size: 2.5em;
+    }
+    .section {
+      padding: 30px;
+      margin: 20px;
+      border-radius: 10px;
+      background-color: #333;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      animation: fadeIn 2s forwards;
+    }
+    .section:nth-child(1) {
+      animation-delay: 0s;
+    }
+    .section:nth-child(2) {
+      animation-delay: 2s;
+    }
+    .section:nth-child(3) {
+      animation-delay: 4s;
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    .interactive:hover {
+      background-color: #555;
+      cursor: pointer;
+      transform: scale(1.05);
+      transition: transform 0.3s, background-color 0.3s;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to My Full Stack Developer Portfolio</h1>
+
+  <div class="section interactive">
+    <h2>Front-End Development</h2>
+    <p>
+      As a front-end developer, I have mastered the art of creating visually appealing, responsive, and interactive user interfaces. My expertise lies in using HTML, CSS, and JavaScript, along with powerful frameworks like React and Vue.js. I focus on delivering seamless user experiences, optimizing performance, and ensuring cross-browser compatibility. The key to successful front-end development is understanding the user's needs and creating intuitive designs that meet those expectations. In my projects, I always prioritize accessibility, mobile responsiveness, and smooth navigation. By keeping up with the latest trends in UI/UX design, I ensure that my websites are both functional and aesthetically pleasing.
+      <br><br>
+      My approach to front-end development involves creating clean, maintainable code, using modern design patterns, and collaborating closely with designers to bring their visions to life. I have experience working with CSS preprocessors like SASS and LESS, as well as version control systems like Git, to manage and maintain codebases. I also implement animations and transitions to enhance user engagement and interaction. One of my key skills is making the front-end of a website not only look great but also feel intuitive and fast.
+    </p>
+  </div>
+
+  <div class="section interactive">
+    <h2>Back-End Development</h2>
+    <p>
+      Back-end development is where the magic happens behind the scenes. As a full-stack developer, I am proficient in back-end technologies such as Node.js, Express, and databases like MongoDB and MySQL. My experience includes building RESTful APIs, integrating third-party services, and ensuring robust server-side performance. I focus on creating scalable, secure, and efficient server-side solutions that support the front-end seamlessly.
+      <br><br>
+      My work in back-end development involves writing clean, reusable code, implementing authentication and authorization mechanisms, and managing data effectively. I have hands-on experience with various back-end architectures, including MVC and serverless frameworks. By leveraging tools like Postman and Swagger, I ensure the APIs I build are well-documented and easily testable. I also prioritize security by following best practices, such as data encryption, SQL injection prevention, and secure authentication methods. My goal is to provide back-end systems that are not only functional but also reliable and performant under high traffic loads.
+    </p>
+  </div>
+
+  <div class="section interactive">
+    <h2>Problem Solving</h2>
+    <p>
+      Problem-solving is at the core of being a successful developer. In my journey as a full-stack developer, I've faced a variety of challenges that have honed my analytical skills. Whether it's optimizing code for performance, debugging complex issues, or designing efficient algorithms, I enjoy tackling problems and finding creative solutions. The process of problem-solving is not just about finding quick fixes but understanding the root cause and applying long-term solutions.
+      <br><br>
+      I have developed the ability to break down large problems into smaller, more manageable parts, allowing me to focus on one issue at a time. I use a combination of algorithmic thinking, logical reasoning, and experimentation to approach problems methodically. In addition, I continuously improve my skills by staying updated with the latest developments in programming languages, frameworks, and tools. Whether it's optimizing a database query or refactoring a piece of code for better efficiency, I approach each problem with a mindset of improvement and innovation.
+    </p>
+  </div>
+
+</body>
+</html>
